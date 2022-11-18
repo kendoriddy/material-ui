@@ -5,14 +5,14 @@ const Authentication = () => {
     const buttonStyles = {
         fontSize: '16px',
         fontWeight: 700,
-        backgroundColor: 'red',
+        backgroundColor: 'primary',
         '&:hover': {
             backgroundColor: 'green',
             color: 'red'
         }
     }
   return <div>Authentication
-  <CommonButton color='secondary' variant='contained' size='medium' sx={buttonStyles}>Text</CommonButton>
+  <CommonButton color='primary' variant='contained' size='medium' sx={buttonStyles}>Text</CommonButton>
   </div>;
 };
 
